@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 48px;
+}
+.number {
+  text-align: center;
+  font-size: 54px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 28px;
+  gap: 4px;
+  margin-top: 20px;
+}
+.container button {
+  padding: 10px 10px 10px 10px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+.container button:hover {
+  cursor: pointer;
+}
+.plus {
+  background-color: #198754;
+}
+.minus {
+  background-color: #dc3545;
+}
+.reset {
+  background-color: #6c757d;
+}
